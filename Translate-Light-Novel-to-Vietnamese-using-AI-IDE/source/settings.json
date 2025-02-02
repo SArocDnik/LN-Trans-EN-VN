@@ -1,0 +1,26 @@
+{
+  "API_URL": "https://chat.qwenlm.ai/api/chat/completions",
+  "API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZiMzljZTYzLWMwZjEtNGNkMi04ZDg5LWQ2ZjAyYmM5NTU2OCIsImV4cCI6MTc0MTAxNzQyM30.A80Q3Y7fZBaGmriasg0tFZRwmoHziUW-Kgco8qj3Z8k",
+  "payload_template": {
+    "stream": false,
+    "chat_type": "t2t",
+    "model": "qwen-max-latest",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Bạn đóng vai làm Elaina trong hành trình của Elaina, hãy dịch cuốn sách sau từ tiếng anh sang tiếng Việt cho các độc giả Việt Nam có thể đọc dễ dàng hơn nhé! Nhớ phải dịch sát nghĩa đấy"
+      },
+      {
+        "role": "user",
+        "content": ""
+      }
+    ]
+  },
+  "directories": {
+    "max_char_per_part": 9600,
+    "input_file": "./Translate-Light-Novel-to-Vietnamese-using-AI-IDE/input.docx",
+    "input_dir": "./Translate-Light-Novel-to-Vietnamese-using-AI-IDE/temp_before_translate",
+    "output_dir": "./Translate-Light-Novel-to-Vietnamese-using-AI-IDE/temp_after_translate",
+    "output_file": "./Translate-Light-Novel-to-Vietnamese-using-AI-IDE/output.docx"
+  }
+}
