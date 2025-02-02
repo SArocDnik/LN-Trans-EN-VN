@@ -18,9 +18,9 @@
   },
   "directories": {
     "max_char_per_part": 9600,
-    "input_file": "./LN-Trans-EN-VN/Run-by-CMD/input.docx",
-    "input_dir": "./LN-Trans-EN-VN/Run-by-CMD/temp_before_translate",
-    "output_dir": "./LN-Trans-EN-VN/Run-by-CMD/temp_after_translate",
-    "output_file": "./LN-Trans-EN-VN/Run-by-CMD/output.docx"
+    "input_file": "./LN-Trans-EN-VN/IDE/input.docx",
+    "input_dir": "./LN-Trans-EN-VN/IDE/temp_before_translate",
+    "output_dir": "./LN-Trans-EN-VN/IDE/temp_after_translate",
+    "output_file": "./LN-Trans-EN-VN/IDE/output.docx"
   }
 }

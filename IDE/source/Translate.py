@@ -5,7 +5,7 @@ import requests
 # Đọc cấu hình từ file settings.json
 def load_settings():
     try:
-        with open("LN-Trans-EN-VN/Run-by-CMD/source/settings.json", "r", encoding="utf-8") as f:
+        with open("LN-Trans-EN-VN/IDE/source/settings.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
         print(f"Lỗi khi đọc file settings.json: {e}")
